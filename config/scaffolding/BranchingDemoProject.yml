@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/thesse1
   gitUsername: thesse1
   gitBranch: main
+services:
+- serviceName: project.branchingdemo.integrations:Demo_001
+  packages:
+  - name: BranchingDemoProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1970
