@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: BranchingDemoProject
+  gitServerName: thesse1
+  gitUrl: https://github.com/thesse1
+  gitUsername: thesse1
+  gitBranch: main
